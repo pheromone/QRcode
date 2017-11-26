@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		6C1767C21FC0023300903861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1767C11FC0023300903861 /* AppDelegate.m */; };
-		6C1767C51FC0023300903861 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1767C41FC0023300903861 /* ViewController.m */; };
-		6C1767C81FC0023300903861 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1767C61FC0023300903861 /* Main.storyboard */; };
 		6C1767CA1FC0023300903861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C1767C91FC0023300903861 /* Assets.xcassets */; };
-		6C1767CD1FC0023300903861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C1767CB1FC0023300903861 /* LaunchScreen.storyboard */; };
 		6C1767D01FC0023300903861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1767CF1FC0023300903861 /* main.m */; };
 		6C1767DA1FC0023300903861 /* QRcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1767D91FC0023300903861 /* QRcodeTests.m */; };
 		6C1767E51FC0023300903861 /* QRcodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1767E41FC0023300903861 /* QRcodeUITests.m */; };
+		6C1767F61FC0047800903861 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1767F51FC0047800903861 /* MainViewController.m */; };
+		6CFA800F1FC13E9000D445EC /* QRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA800E1FC13E9000D445EC /* QRImage.m */; };
+		6CFA80131FC14A2300D445EC /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA80121FC14A2300D445EC /* ScanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,11 +38,7 @@
 		6C1767BD1FC0023300903861 /* QRcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1767C01FC0023300903861 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6C1767C11FC0023300903861 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6C1767C31FC0023300903861 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6C1767C41FC0023300903861 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6C1767C71FC0023300903861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C1767C91FC0023300903861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6C1767CC1FC0023300903861 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C1767CE1FC0023300903861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C1767CF1FC0023300903861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6C1767D51FC0023300903861 /* QRcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRcodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +47,12 @@
 		6C1767E01FC0023300903861 /* QRcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRcodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C1767E41FC0023300903861 /* QRcodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRcodeUITests.m; sourceTree = "<group>"; };
 		6C1767E61FC0023300903861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C1767F41FC0047800903861 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6C1767F51FC0047800903861 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6CFA800D1FC13E9000D445EC /* QRImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QRImage.h; sourceTree = "<group>"; };
+		6CFA800E1FC13E9000D445EC /* QRImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRImage.m; sourceTree = "<group>"; };
+		6CFA80111FC14A2300D445EC /* ScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		6CFA80121FC14A2300D445EC /* ScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +105,15 @@
 			children = (
 				6C1767C01FC0023300903861 /* AppDelegate.h */,
 				6C1767C11FC0023300903861 /* AppDelegate.m */,
-				6C1767C31FC0023300903861 /* ViewController.h */,
-				6C1767C41FC0023300903861 /* ViewController.m */,
-				6C1767C61FC0023300903861 /* Main.storyboard */,
 				6C1767C91FC0023300903861 /* Assets.xcassets */,
-				6C1767CB1FC0023300903861 /* LaunchScreen.storyboard */,
 				6C1767CE1FC0023300903861 /* Info.plist */,
 				6C1767CF1FC0023300903861 /* main.m */,
+				6C1767F41FC0047800903861 /* MainViewController.h */,
+				6C1767F51FC0047800903861 /* MainViewController.m */,
+				6CFA800D1FC13E9000D445EC /* QRImage.h */,
+				6CFA800E1FC13E9000D445EC /* QRImage.m */,
+				6CFA80111FC14A2300D445EC /* ScanViewController.h */,
+				6CFA80121FC14A2300D445EC /* ScanViewController.m */,
 			);
 			path = QRcode;
 			sourceTree = "<group>";
@@ -238,9 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C1767CD1FC0023300903861 /* LaunchScreen.storyboard in Resources */,
 				6C1767CA1FC0023300903861 /* Assets.xcassets in Resources */,
-				6C1767C81FC0023300903861 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C1767C51FC0023300903861 /* ViewController.m in Sources */,
 				6C1767D01FC0023300903861 /* main.m in Sources */,
+				6CFA80131FC14A2300D445EC /* ScanViewController.m in Sources */,
+				6C1767F61FC0047800903861 /* MainViewController.m in Sources */,
+				6CFA800F1FC13E9000D445EC /* QRImage.m in Sources */,
 				6C1767C21FC0023300903861 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,25 +305,6 @@
 			targetProxy = 6C1767E11FC0023300903861 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6C1767C61FC0023300903861 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C1767C71FC0023300903861 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6C1767CB1FC0023300903861 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6C1767CC1FC0023300903861 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6C1767E71FC0023300903861 /* Debug */ = {
@@ -433,6 +418,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4629HP3VA;
 				INFOPLIST_FILE = QRcode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shaoting-Zhou.QRcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U4629HP3VA;
 				INFOPLIST_FILE = QRcode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Shaoting-Zhou.QRcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
